@@ -42,5 +42,4 @@ jobs:
           poetry run black . --check
 
       - name: Test Code
-        env: 
         run: poetry run pytest
