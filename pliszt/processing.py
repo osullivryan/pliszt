@@ -16,6 +16,7 @@ def extract_notes(midi_part: Part) -> List[Note]:
     """
     return [note for note in midi_part.flat.notes]
 
+
 def get_frequency(notes: List[Note]) -> List[Real]:
     frequencies = []
     for note in notes:
