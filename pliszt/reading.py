@@ -2,6 +2,7 @@ from music21 import midi
 from music21.stream import Stream
 from typing import Text, Optional
 
+
 def open_midi(midi_path: Text) -> Stream:
     """Open a midi file and return a music21 Stream. Remove the drums (channel 10) from a file if specified from each track.
 
